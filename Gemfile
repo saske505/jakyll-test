@@ -54,4 +54,6 @@ group :development, :test do
   jekyll new .
     
   #start the jekyl serve
+  
+  jekyll serve
 end
