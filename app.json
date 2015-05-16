@@ -1,0 +1,7 @@
+{
+  "name": "Jekyll Test",
+  "description": "testing the waters",
+  "repository": "https://github.com/jekyll/jekyll.git",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Ruby_on_Rails_logo.svg",
+  "keywords": ["jekyll", "rails", "blog"]
+}
