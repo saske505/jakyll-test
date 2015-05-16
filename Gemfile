@@ -25,7 +25,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'rails_12factor', group: :production
 gem 'puma'
-
+gem install jekyll
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
@@ -47,13 +47,7 @@ group :development, :test do
   
   #lets add jekyl isntallation to the pyle
   
-  gem install jekyll
+
   
-  #don't think we should add a blog directory so call
-  
-  jekyll new .
-    
-  #start the jekyl serve
-  
-  jekyll serve
+ 
 end
