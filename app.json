@@ -1,7 +1,7 @@
 {
-  "name": "Ruby on Rails",
-  "description": "A template for getting started with the popular Ruby framework.",
-  "website": "",
+  "name": "jekyll",
+  "description": "Jekyll is a blog-aware, static site generator in Ruby.",
+  "website": "http://jekyllrb.com",
   "repository": "https://github.com/jekyll/jekyll.git",
   "logo": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Ruby_on_Rails_logo.svg",
   "scripts": {
