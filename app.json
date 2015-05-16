@@ -1,18 +1,16 @@
 {
-  "name": "Jekyll Test",
-  "description": "testing the waters",
-  "repository": "https://github.com/jekyll/jekyll.git",
+  "name": "Ruby on Rails",
+  "description": "A template for getting started with the popular Ruby framework.",
+  "website": "http://rubyonrails.org",
+  "repository": "https://github.com/heroku/ruby-rails-sample",
   "logo": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Ruby_on_Rails_logo.svg",
-  "keywords": ["jekyll", "rails", "blog"]
+  "scripts": {
+    "postdeploy": "bundle exec rake db:migrate"
+  },
+  "env": {
+    "RAILS_ENV": "production",
+    "RACK_ENV": "production",
+    "RAILS_SERVE_STATIC_FILES": "true"
+  },
+  "addons": ["heroku-postgresql"]
 }
- curl -n -X POST https://api.heroku.com/app-setups \
--H "Content-Type:application/json" \
--H "Accept:application/vnd.heroku+json; version=3" \
--d '{"source_blob": { "url":"https://github.com/heroku/ruby-rails-sample/tarball/master/"},
-"overrides": {"env": { "RAILS_ENV":"development" } } }'
-
- curl -n -X GET https://api.heroku.com/apps/pacific-peak-6986/builds/06503167-f75e-4ad6-bd06-4d5da3825eb5/result \
--H "Content-Type:application/json" \
--H "Accept:application/vnd.heroku+json; version=3"
-
-"resolved_success_url": "http://pacific-peak-6986.herokuapp.com/"
