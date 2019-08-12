@@ -1,4 +1,4 @@
-# jakyll-test
+# Jekyll-test
 
 if this works click the button
 
